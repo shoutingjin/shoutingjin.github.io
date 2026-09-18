@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="paper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="金首廷的个人作品集：风景园林、城市更新、公共空间与景观规划。">
+  <meta name="theme-color" content="#253c32">
+  <title>金首廷 · 风景与手稿</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%23253c32'/%3E%3Cpath d='M10 10h44v44H10z' fill='none' stroke='%23c1a16b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='36' fill='%23e9d9b5'%3EJ%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="金首廷，返回首页"><span class="monogram">J.</span><span>金首廷<span class="brand-caption">PERSONAL PORTFOLIO</span></span></a>
+    <nav aria-label="主导航"><a href="#home" aria-current="page">序章</a><a href="#works">作品</a><a href="#about">关于</a><a href="#contact">联系</a></nav>
+    <div class="header-actions"><button id="music-toggle" class="tool-button" aria-label="播放背景轻音乐" aria-pressed="false"><span aria-hidden="true">♫</span><span class="tool-label">静音</span></button><button id="theme-toggle" class="tool-button" aria-label="切换至暗金主题" aria-pressed="false"><span aria-hidden="true">◐</span><span class="tool-label">暗金</span></button></div>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-rule"></span> LANDSCAPE · MEMORY · LIFE</p>
+        <p class="hero-pretitle">风景与手稿</p>
+        <h1 id="hero-title">金首廷<span>Shouting Jin</span></h1>
+        <p class="hero-intro">在山水之间，<br>寻找人与场所的共鸣。</p>
+        <p class="hero-description" id="hero-description">风景园林 · 重庆大学建筑城规学院<br>关注城市更新、公共空间与地域景观。</p>
+        <div class="hero-links"><a class="button solid" href="#works">走进我的作品 <span aria-hidden="true">↗</span></a><a class="text-link resume-link" href="简历 金首廷.pdf" target="_blank" rel="noopener">阅读简历 <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-footnote">以自然为底色，以生活为尺度。</p>
+      </div>
+      <div class="hero-art" aria-label="个人肖像与景观手稿拼贴">
+        <div class="landscape-layer" role="img" aria-label="复古景观装饰背景"></div>
+        <div class="drawing-fragment"><img src="assets/portfolio-23.webp" alt="古典园林测绘手稿局部" width="2200" height="1556"></div>
+        <p class="art-index">PLATE I <span>·</span> PORTRAIT</p>
+        <figure class="portrait-frame"><img id="portrait" src="assets/portrait.webp" alt="金首廷的个人肖像" width="1200" height="1800" fetchpriority="high"><figcaption>金首廷 <span>SHOUTING JIN</span></figcaption></figure>
+        <div class="seal" aria-hidden="true">山水<br>之间</div>
+        <p class="art-note">Notes on landscape<br><em>& the art of living.</em></p>
+      </div>
+      <div class="hero-bottom"><span>CHONGQING UNIVERSITY · LANDSCAPE ARCHITECTURE</span><a href="#works">向下探索 <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="gallery" id="works" aria-labelledby="works-title">
+      <div class="section-shell gallery-heading"><div><p class="eyebrow">01 / SELECTED WORKS</p><h2 id="works-title">作品陈列室 <em>The Collection</em></h2></div><p>从街巷的日常，到山城的远景。<br>关于场所、记忆与共生的设计探索。</p></div>
+      <div class="gallery-track" id="gallery-track" tabindex="0" aria-label="作品画廊，使用左右方向键或左右滑动浏览"></div>
+      <div class="section-shell gallery-bottom"><div class="gallery-progress"><span id="gallery-current">01</span><div class="progress-line"><span id="gallery-progress"></span></div><span id="gallery-total">06</span></div><p class="swipe-note">左右滑动 · 点击作品阅览</p><div class="gallery-arrows"><button id="gallery-prev" aria-label="上一件作品">←</button><button id="gallery-next" aria-label="下一件作品">→</button></div></div>
+      <div class="section-shell archive-row"><span>完整设计图纸与过程记录</span><a class="text-link portfolio-link" href="作品集.pdf" target="_blank" rel="noopener">打开作品集 PDF <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="about section-shell" id="about" aria-labelledby="about-title">
+      <div class="about-intro"><p class="eyebrow">02 / A PERSONAL MANUSCRIPT</p><h2 id="about-title">关于我<span class="serif-italic">Beyond the drawings.</span></h2><p class="intro-paragraph" id="biography"></p><div class="signature">Shouting Jin</div><a class="text-link resume-link" href="简历 金首廷.pdf" target="_blank" rel="noopener">阅读完整简历 <span aria-hidden="true">↗</span></a><div class="margin-note"><span>FIELD NOTES</span><p>观察 · 调研 · 绘制 · 思考</p></div></div>
+      <div class="resume-paper"><div class="paper-heading"><span>个人履历</span><span>CURRICULUM VITAE</span></div><div id="resume-content"></div></div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="section-shell contact-inner"><div><p class="eyebrow">03 / KEEP IN TOUCH</p><h2 id="contact-title">让下一段风景，<br>从一次交流开始。</h2></div><div class="contact-details"><p>设计交流 / 项目合作</p><a id="email-link" class="email-link" href="mailto:shoutingjin@163.com">shoutingjin@163.com <span aria-hidden="true">↗</span></a><a id="phone-link" href="tel:18844201611">+86 188 4420 1611</a><button class="text-link" id="copy-email">复制邮箱 <span aria-hidden="true">⧉</span></button><p id="contact-status" role="status" class="status"></p></div></div></section>
+  </main>
+  <footer class="section-shell"><span>© <span id="year">2026</span> 金首廷</span><span class="footer-center">风景与手稿 · A PERSONAL COLLECTION</span><a href="#home">回到序章 ↑</a></footer>
+  <dialog id="art-viewer" aria-labelledby="viewer-title"><div class="viewer-header"><div><p class="eyebrow" id="viewer-category"></p><h2 id="viewer-title"></h2></div><button id="viewer-close" aria-label="关闭作品阅览">×</button></div><p class="viewer-description" id="viewer-description"></p><div id="viewer-canvas" class="viewer-canvas"><img id="viewer-image" alt="" draggable="false"></div><div class="viewer-controls"><button id="viewer-prev" aria-label="上一页图纸">←</button><p id="viewer-count" aria-live="polite"></p><button id="viewer-next" aria-label="下一页图纸">→</button><button id="viewer-zoom" aria-pressed="false">放大细节</button><a id="viewer-original" target="_blank" rel="noopener">打开原图 ↗</a></div><p class="viewer-help">左右滑动或按 ← → 翻页 · Esc 关闭 · 放大后可滚动查看</p></dialog>
+  <noscript><p class="no-script">请启用 JavaScript 查看交互画廊。你也可以直接打开 <a href="作品集.pdf">完整作品集</a> 和 <a href="简历 金首廷.pdf">个人简历</a>。</p></noscript>
+</body>
+</html>
